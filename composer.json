@@ -1,0 +1,25 @@
+{
+    "name": "sid/calculator",
+    "description": "Sample package test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidrit Trandafili",
+            "email": "forge405@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Sid\\Calculator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sid\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
