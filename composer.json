@@ -9,6 +9,7 @@
             "email": "forge405@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Sid\\Calculator\\": "src/"
